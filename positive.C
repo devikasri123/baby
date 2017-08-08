@@ -3,12 +3,12 @@ int main()
 {
 int n;
 printf("enter the number");
-scanf("%d",&a);
+scanf("%d",&n);
 if(n>=1)
-printf("positive numbar");
+printf("positive number");
 else if(n==0)
 printf("neither positive nor negative");
 else
-printf("negative numbar");
+printf("negative number");
 return 0;
 }
